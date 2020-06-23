@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F308FD924A26D3D0054861E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308FD824A26D3D0054861E /* Food.swift */; };
+		7F308FDB24A26E6A0054861E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F308FDA24A26E6A0054861E /* FoodCell.swift */; };
 		7F7FF45D24A2680F00405B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7FF45C24A2680F00405B06 /* AppDelegate.swift */; };
 		7F7FF45F24A2680F00405B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7FF45E24A2680F00405B06 /* ViewController.swift */; };
 		7F7FF46424A2681100405B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7FF46324A2681100405B06 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F308FD824A26D3D0054861E /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		7F308FDA24A26E6A0054861E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		7F7FF45924A2680F00405B06 /* RandomFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7FF45C24A2680F00405B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F7FF45E24A2680F00405B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				7F7FF46324A2681100405B06 /* Assets.xcassets */,
 				7F7FF46524A2681100405B06 /* LaunchScreen.storyboard */,
 				7F7FF46824A2681100405B06 /* Info.plist */,
+				7F308FD824A26D3D0054861E /* Food.swift */,
+				7F308FDA24A26E6A0054861E /* FoodCell.swift */,
 			);
 			path = RandomFood;
 			sourceTree = "<group>";
@@ -132,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7FF45F24A2680F00405B06 /* ViewController.swift in Sources */,
+				7F308FDB24A26E6A0054861E /* FoodCell.swift in Sources */,
 				7F7FF45D24A2680F00405B06 /* AppDelegate.swift in Sources */,
+				7F308FD924A26D3D0054861E /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
