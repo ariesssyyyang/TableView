@@ -12,13 +12,13 @@ struct Food {
     let name: String
     let spicy: Bool
     let type: FoodType
-    let budge: Budge
+    let level: Level
 }
 
 enum FoodType {
     case jp, thai, kr, ch, us, undefined
 }
 
-enum Budge {
+enum Level {
     case expensive, cheap, highCP, normal
 }
